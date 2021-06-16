@@ -1,0 +1,28 @@
+a:hover{
+    font-size:20px;
+    background-color:aquamarine
+}
+.flex{
+    display:flex;
+    justify-content: space-around;
+    
+}
+.po{
+    height:600px;
+    width:100%;
+    background-color:orange;
+    display:grid;
+    grid-template-columns: auto auto auto;
+    grid-gap: 75px;
+    
+}
+.grid-item{
+     border:solid 1px;
+    border-radius:20px;
+    grid-gap: 25px;
+    background-color:red;
+    
+}
+.flex:hover{
+    color:blue;
+}
